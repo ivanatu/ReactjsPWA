@@ -1,0 +1,148 @@
+[debug] [2020-01-28T17:01:01.971Z] ----------------------------------------------------------------------
+[debug] [2020-01-28T17:01:01.974Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-01-28T17:01:01.974Z] CLI Version:   7.12.1
+[debug] [2020-01-28T17:01:01.974Z] Platform:      win32
+[debug] [2020-01-28T17:01:01.974Z] Node Version:  v12.13.0
+[debug] [2020-01-28T17:01:01.976Z] Time:          Tue Jan 28 2020 20:01:01 GMT+0300 (East Africa Time)
+[debug] [2020-01-28T17:01:01.976Z] ----------------------------------------------------------------------
+[debug] [2020-01-28T17:01:01.976Z] 
+[debug] [2020-01-28T17:01:01.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-28T17:01:01.985Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Retro\React-PWA\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2020-01-28T17:01:33.929Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2020-01-28T17:01:35.790Z] <<< HTTP RESPONSE 400
+[debug] [2020-01-28T17:01:35.792Z] <<< HTTP RESPONSE BODY
+[debug] [2020-01-28T17:01:35.797Z] HTTP Error: 400, Request contains an invalid argument.
+[debug] [2020-01-28T17:01:36.303Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at module.exports (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at Request.<anonymous> (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at IncomingMessage.<anonymous> (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:476:20)
+    at endReadableNT (_stream_readable.js:1183:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
+[debug] [2020-01-28T17:01:45.723Z] ----------------------------------------------------------------------
+[debug] [2020-01-28T17:01:45.729Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-01-28T17:01:45.729Z] CLI Version:   7.12.1
+[debug] [2020-01-28T17:01:45.729Z] Platform:      win32
+[debug] [2020-01-28T17:01:45.730Z] Node Version:  v12.13.0
+[debug] [2020-01-28T17:01:45.734Z] Time:          Tue Jan 28 2020 20:01:45 GMT+0300 (East Africa Time)
+[debug] [2020-01-28T17:01:45.734Z] ----------------------------------------------------------------------
+[debug] [2020-01-28T17:01:45.734Z] 
+[debug] [2020-01-28T17:01:45.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-28T17:01:45.752Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Retro\React-PWA\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2020-01-28T17:02:09.328Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2020-01-28T17:02:11.223Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-28T17:02:11.232Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6239808848693969211  
+ 
+[debug] [2020-01-28T17:02:13.261Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-28T17:02:13.766Z] [Project Creation Poller] Retrying task index 0
+[debug] [2020-01-28T17:02:13.767Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6239808848693969211  
+ 
+[debug] [2020-01-28T17:02:15.613Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-28T17:02:16.617Z] [Project Creation Poller] Retrying task index 0
+[debug] [2020-01-28T17:02:16.619Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6239808848693969211  
+ 
+[debug] [2020-01-28T17:02:18.500Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-28T17:02:18.512Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/react1234:addFirebase  
+ 
+[debug] [2020-01-28T17:02:19.072Z] <<< HTTP RESPONSE 403
+[debug] [2020-01-28T17:02:19.073Z] <<< HTTP RESPONSE BODY
+[debug] [2020-01-28T17:02:19.074Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-01-28T17:02:19.436Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at Request.<anonymous> (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at IncomingMessage.<anonymous> (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:476:20)
+    at endReadableNT (_stream_readable.js:1183:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2020-01-28T17:03:23.426Z] ----------------------------------------------------------------------
+[debug] [2020-01-28T17:03:23.428Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2020-01-28T17:03:23.428Z] CLI Version:   7.12.1
+[debug] [2020-01-28T17:03:23.428Z] Platform:      win32
+[debug] [2020-01-28T17:03:23.428Z] Node Version:  v12.13.0
+[debug] [2020-01-28T17:03:23.430Z] Time:          Tue Jan 28 2020 20:03:23 GMT+0300 (East Africa Time)
+[debug] [2020-01-28T17:03:23.430Z] ----------------------------------------------------------------------
+[debug] [2020-01-28T17:03:23.430Z] 
+[debug] [2020-01-28T17:03:23.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-28T17:03:23.446Z] > authorizing via signed-in user
+[debug] [2020-01-28T17:03:41.892Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2020-01-28T17:03:43.751Z] <<< HTTP RESPONSE 409
+[debug] [2020-01-28T17:03:43.752Z] <<< HTTP RESPONSE BODY
+[debug] [2020-01-28T17:03:43.757Z] HTTP Error: 409, Requested entity already exists
+[debug] [2020-01-28T17:03:44.140Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at Request.<anonymous> (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at IncomingMessage.<anonymous> (C:\Users\ivana\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:476:20)
+    at endReadableNT (_stream_readable.js:1183:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
